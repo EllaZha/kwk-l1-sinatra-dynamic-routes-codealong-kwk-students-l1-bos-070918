@@ -26,7 +26,7 @@ get '/multiply/:num1/:num2' do
   @num_2 = params[:num2].to_i
   answer=@num_1*@num_2
   answer.to_s
-  
+  erb :multiply
 end
 
 end
